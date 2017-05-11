@@ -1,0 +1,19 @@
+{
+  "name": "sampleproductsite",
+  "version": "1.0.0",
+  "description": "A sample eCommerce Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Higino/sampleproductsite.git"
+  },
+  "author": "Higino Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Higino/sampleproductsite/issues"
+  },
+  "homepage": "https://github.com/Higino/sampleproductsite#readme"
+}
