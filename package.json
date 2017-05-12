@@ -15,5 +15,17 @@
   "bugs": {
     "url": "https://github.com/Higino/sampleproductsite/issues"
   },
-  "homepage": "https://github.com/Higino/sampleproductsite#readme"
+  "homepage": "https://github.com/Higino/sampleproductsite#readme",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  }
 }
