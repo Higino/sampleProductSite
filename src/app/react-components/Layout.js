@@ -9,7 +9,7 @@ export default class Layout extends React.Component {
     }
 
     changeSiteName( name ){
-        this.setState({siteName: name});
+        this.setState({siteName: name}); //Some comment
     }
 
     render () {
