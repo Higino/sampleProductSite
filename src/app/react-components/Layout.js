@@ -8,20 +8,15 @@ export default class Layout extends React.Component {
         this.state = {siteName: "eCommerce-R-US"};
     }
 
+    changeSiteName( name ){
+        this.setState({siteName: name});
+    }
+
     render () {
-        // Change site name from now and then
-        setTimeout(() => {
-            if( this.state.siteName === "eCommerce-R-US"){
-                setTimeout(()=> {this.setState({siteName: "Commerce-4-YOU"})}, 3000);
-            }
-            else {
-                setTimeout(()=> {this.setState({siteName: "eCommerce-R-US"})}, 3000);
-            }
-        }, 3000);
         return (
             <div>
                 <Header siteName={this.state.siteName}/>
-                <Content />
+                <Content changeSiteName={this.changeSiteName.bind(this)} />
             </div>
         );
     }
